@@ -2,14 +2,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+}
+
 .container {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-}
-
-h1 {
-  text-align: center;
 }
 
 .queue-container {
@@ -17,7 +17,6 @@ h1 {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
-  
 }
 
 .queue-item {
