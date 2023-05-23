@@ -1,0 +1,36 @@
+#stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.node {
+    width: 200px;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+#push-input {
+    margin-bottom: 10px;
+  }
+
+#push-btn, #pop-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
