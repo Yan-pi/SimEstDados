@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 #stack {
   display: flex;
   flex-direction: column;
@@ -8,10 +12,14 @@
 .navbar {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 10px 5px;
   margin-bottom: 20px;
   border-radius: 10px;
-  width: 600px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: baseline;
 }
 .node {
   width: 200px;
@@ -47,7 +55,6 @@
   background-color: #4caf50;
   color: white;
   border: none;
-  cursor: pointer;
 }
 
 #push-btn:hover,
