@@ -1,56 +1,69 @@
+# Simulador de Estrutura de Dados
 
-SimEstDados - Simulador de Estrutura de Dados
-SimEstDados
+Este é um simulador desenvolvido para a disciplina de Estrutura de Dados na Universidade Católica de Salvador. O simulador permite visualizar e interagir com diferentes estruturas de dados implementadas em HTML, CSS e JavaScript.
 
-SimEstDados é um simulador desenvolvido como projeto para a disciplina de Estrutura de Dados na Universidade Católica de Salvador. O objetivo do projeto é fornecer uma ferramenta interativa que permita aos estudantes compreender e visualizar de forma prática as principais estruturas de dados.
+## Funcionalidades
 
-Funcionalidades
-Simulação interativa das estruturas de dados mais comuns, incluindo:
-Listas encadeadas
-Pilhas
-Filas
-Árvores binárias
-Grafos
-Operações básicas em cada estrutura de dados, como inserção, remoção e busca.
-Visualização gráfica das estruturas de dados em tempo real.
-Interface intuitiva e fácil de usar.
-Como usar
-Clone este repositório em sua máquina local usando o seguinte comando:
-shell
-Copy code
+O simulador possui as seguintes funcionalidades:
+
+- Visualizar estruturas de dados como pilha, fila e lista encadeada.
+- Realizar operações básicas em cada estrutura de dados, como inserção, remoção e busca de elementos.
+- Visualizar a representação gráfica das estruturas de dados em tempo real.
+- Interagir com a interface do simulador de forma intuitiva e amigável.
+
+## Como utilizar
+
+Siga as instruções abaixo para utilizar o simulador:
+
+1. Clone este repositório em sua máquina local usando o seguinte comando:
+```
 git clone https://github.com/Yan-pi/SimEstDados.git
-Abra o arquivo index.html em seu navegador preferido.
+```
 
-Selecione a estrutura de dados desejada no menu principal.
+2. Navegue até o diretório do projeto:
+```
+cd SimEstDados
+```
 
-Interaja com a estrutura de dados usando as operações disponíveis.
+3. Abra o arquivo `index.html` em um navegador da web.
 
-Contribuição
-Contribuições são bem-vindas! Se você deseja contribuir para o SimEstDados, siga as etapas abaixo:
+4. Explore as diferentes estruturas de dados disponíveis no simulador.
 
-Faça um fork do repositório.
+## Tecnologias utilizadas
 
-Crie um branch para a sua contribuição:
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-shell
-Copy code
-git checkout -b minha-contribuicao
-Faça as alterações desejadas no código.
+- HTML5
+- CSS3
+- JavaScript
 
-Faça commit das suas alterações:
+## Contribuição
 
-shell
-Copy code
-git commit -m "Minha contribuição"
-Faça push das suas alterações para o branch criado:
-shell
-Copy code
-git push origin minha-contribuicao
-Abra um pull request no repositório original.
-Autores
-Yan Pi - GitHub
-Licença
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga as etapas abaixo:
 
-Agradecimentos
-Agradecemos aos professores e colegas da disciplina de Estrutura de Dados por seu apoio e feedback durante o desenvolvimento deste projeto.
+1. Faça um fork deste repositório.
+
+2. Crie uma nova branch com suas modificações:
+```
+git checkout -b minha-branch
+```
+
+3. Faça as alterações desejadas e faça commit das mesmas:
+```
+git commit -am "Descrição das modificações"
+```
+
+4. Envie as alterações para o repositório remoto:
+```
+git push origin minha-branch
+```
+
+5. Abra um pull request para revisão das suas alterações.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para obter mais informações.
+
+---
+
+Sinta-se à vontade para entrar em contato com o autor do projeto se tiver alguma dúvida ou sugestão.
